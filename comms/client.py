@@ -4,7 +4,7 @@ import socket
 
 class Client():
     def __init__(self):
-        self.manager_ip = '192.168.2.51'
+        self.manager_ip = '192.168.2.19'
         self.port = 12345
 
     def send(self, msg: str):

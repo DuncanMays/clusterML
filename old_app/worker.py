@@ -25,7 +25,7 @@ def send_and_receive(message: Message, cl: client):
     elif resp_dict["type"] == "terminate":
         response = Terminate(resp_dict)
     else:
-        raise TypeError("Didn't receive a known message type")
+        raise TypeError("unknown message type")
     return response
 
 

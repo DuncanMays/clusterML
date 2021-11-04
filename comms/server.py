@@ -5,7 +5,7 @@ import socket
 class Server():
     def __init__(self, response_policy: object):
         """response_policy is a method describing how to reply to different message types."""
-        self.manager_ip = '192.168.2.51'
+        self.manager_ip = '192.168.2.19'
         self.port = 12345
         self.response_policy = response_policy # used Noun naming because it is treated like a Noun here
 
